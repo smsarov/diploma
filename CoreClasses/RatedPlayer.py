@@ -2,7 +2,7 @@ from typing import TypeVar, Generic
 
 from .BasePlayer import BasePlayer
 
-T = TypeVar('T')
+T = TypeVar("T")
 
 
 class RatedPlayer(Generic[T]):
